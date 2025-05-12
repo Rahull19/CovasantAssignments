@@ -1,0 +1,113 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #1e1e2f, #12121a);
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    max-width: 700px;
+    margin: 50px auto;
+    padding: 30px;
+    background: rgba(255, 255, 255, 0.05);
+    box-shadow: 0 0 20px rgba(0, 255, 255, 0.3);
+    border-radius: 15px;
+    backdrop-filter: blur(10px);
+}
+h1 {
+    text-align: center;
+    color: #00ffff;
+    margin-bottom: 30px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+label {
+    font-size: 1.1em;
+    font-weight: 600;
+}
+input[type="text"] {
+    padding: 12px 15px;
+    border: none;
+    border-radius: 10px;
+    background: #292943;
+    color: #fff;
+    font-size: 1em;
+}
+#submitBtn {
+    width: 100%;
+    max-width: 300px;
+    height: 50px;
+    margin: 20px auto;
+    background-color: #006d77;
+    color: #fff;
+    font-size: 1.1em;
+    font-weight: 600;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+#submitBtn:hover {
+    background-color: #004e57;
+}
+#toggleHistory {
+    background-color: #ff4081;
+    color: #fff;
+    margin-top: 20px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 250px;
+    height: 45px;
+    margin: 20px auto;
+    font-size: 1.1em;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+#toggleHistory:hover {
+    background-color: #ff3366;
+}
+.chat-entry {
+    background: #2d2d44;
+    padding: 15px;
+    margin-top: 30px;
+    border-radius: 10px;
+    box-shadow: inset 0 0 5px rgba(0,255,255,0.3);
+}
+.query, .result {
+    margin: 10px 0;
+    font-size: 1.05em;
+}
+.query {
+    color: #90e0ef;
+    font-weight: bold;
+}
+.result {
+    color: #ade8f4;
+}
+#history-section {
+    margin-top: 20px;
+    padding: 15px;
+    background: rgba(255,255,255,0.03);
+    border-left: 4px solid #ff4081;
+    border-radius: 10px;
+    display: none;
+}
+#history-section h3 {
+    color: #ffb3c1;
+    margin-bottom: 10px;
+}
+#history-section ul {
+    list-style: none;
+    padding-left: 0;
+}
+#history-section li {
+    background: #1e1e2e;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 8px;
+    color: #ffffff;
+    box-shadow: 0 0 8px rgba(0,255,255,0.2);
+}
