@@ -63,7 +63,7 @@ def update_for_today():
     </head>
     <body>
         <div class="container">
-            <h2>Update for Today 📝</h2>
+            <h2>Update for Today</h2>
             <form method="post" action="/updatefortoday">
                 <textarea name="note" rows="5" cols="50" placeholder="Write your note here..."></textarea><br>
                 <input type="submit" value="Submit Note" />
